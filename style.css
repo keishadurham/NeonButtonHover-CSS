@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(38, 38, 38);
+
+}
+
+.btn-1 {
+   
+    width: 300px;
+    height: 100px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    border-radius: 4px;
+    background-color:  yellow;
+    transition: ease-out 0.3s;
+       
+
+}
+
+.btn-1:hover {
+    background-color: greenyellow;
+    box-shadow: 0 0 30px  greenyellow;
+    color:rgb(12, 12, 12);
+    cursor: pointer;
+  }
+
+.btn-2 {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    transition: ease-out 0.3s;
+    border: none;
+   
+  }
+  
+  .btn-2:hover {
+    color: black;
+    background-color: #2196f3;
+    box-shadow: 0 0 30px #2196f3;
+    cursor:pointer;
+  }
+  
